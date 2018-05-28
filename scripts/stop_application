@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf 
 set -e
 
 service tomcat7 stop
