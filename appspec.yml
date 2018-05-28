@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /scripts/hellworld.html
+  - source: /scripts/index.html
     destination: /tmp/apache-tomcat-8.0.52/webapps/sam
   - source: /scripts/configure_http_port.xsl
     destination: /tmp/codedeploy-deployment-staging-area/
