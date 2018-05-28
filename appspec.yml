@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/SampleMavenTomcatApp.war
-    destination: /tmp/codedeploy-deployment-staging-area/
+  - source: /scripts/hellworld.html
+    destination: /tmp/apache-tomcat-8.0.52/webapps/sam
   - source: /scripts/configure_http_port.xsl
     destination: /tmp/codedeploy-deployment-staging-area/
 hooks:
@@ -16,5 +16,5 @@ hooks:
     - location: scripts/write_codedeploy_config.sh
     - location: scripts/start_application
       timeout: 300
-  ValidateService:
-    - location: scripts/basic_health_check.sh
+  #ValidateService:
+   # - location: scripts/basic_health_check.sh
