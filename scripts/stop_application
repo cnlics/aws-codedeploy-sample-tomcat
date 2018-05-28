@@ -1,6 +1,8 @@
 #!/bin/bash
 
-rm -rf 
-set -e
+mkdir /tmp/apache-tomcat-8.0.52/webapps/sam
+chmod -R 0755 /tmp/apache-tomcat-8.0.52/webapps/sam
+rm -rf  /tmp/apache-tomcat-8.0.52/webapps/sam/index.html
 
-service tomcat7 stop
+
+
