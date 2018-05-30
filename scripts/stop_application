@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir /tmp/apache-tomcat-8.0.52/webapps/sam
-chmod -R 0755 /tmp/apache-tomcat-8.0.52/webapps/sam
-rm -rf  /tmp/apache-tomcat-8.0.52/webapps/sam/index.html
+mkdir /usr/share/tomcat8-codedeploy/webapps/sam
+chmod -R 0755 /usr/share/tomcat8-codedeploy/webapps/sam
+rm -rf  /usr/share/tomcat8-codedeploy/webapps/sam/index.html
 
 
 
